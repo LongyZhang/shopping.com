@@ -1,0 +1,5 @@
+dotnet ef database update  #after migration to create or update db
+
+dotnet ef migrations add InitialCreate -o Data/migrations   # first migration
+
+seeding data
